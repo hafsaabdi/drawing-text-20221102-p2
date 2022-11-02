@@ -7,9 +7,9 @@ appWidth = width;
 appHeight = height;
 //
 //Population
-titleX = appWidth;
-titleY = appHeight;
-titleWidth = appWidth;
-titleHeight =appHeight ;
+titleX = appWidth * 1/4
+titleY = appHeight * 1/4
+titleWidth = appWidth * 1/4
+titleHeight =appHeight  * 1/4
 // 
 //rect(titleX, titleY, titleWidth, titleHeight);
