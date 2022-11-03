@@ -40,5 +40,7 @@ textAlign(CENTER, CENTER);
 fontSize = 50; //Largest size given window
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight );
+textAlign(CENTER, BOTTOM);
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
 text( footer, footerX, footerY, footerWidth, footerHeight );
 fill(resetDefaultInk);
